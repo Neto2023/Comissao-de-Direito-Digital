@@ -11,7 +11,8 @@ CNJ e OAB.
 O guia é uma página HTML autocontida (imagens embutidas, sem dependências externas).
 
 - **Página ao vivo:** _ativada via GitHub Pages_ — ver aba *Settings → Pages* do repositório.
-- **Arquivo:** [`index.html`](index.html)
+- **Guia — Canais de Reclamação:** [`index.html`](index.html)
+- **Relatório Sintético — Morosidade Processual na Comarca de Marabá:** [`relatorio-morosidade-maraba.html`](relatorio-morosidade-maraba.html)
 
 ---
 
