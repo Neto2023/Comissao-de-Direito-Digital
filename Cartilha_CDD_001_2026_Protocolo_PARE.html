@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protocolo P.A.R.E. | Erro no PJe: o que fazer, na ordem | CDD OAB Marabá</title>
+<meta name="description" content="Protocolo de primeiro atendimento a falhas de acesso, certificado digital e peticionamento no PJe do TJPA. Comissão de Direito Digital da OAB/PA, Subseção Marabá.">
+<meta name="theme-color" content="#001333">
+<meta property="og:title" content="Protocolo P.A.R.E. | Erro no PJe: o que fazer, na ordem">
+<meta property="og:description" content="Cartilha Técnica CDD 001/2026. Comissão de Direito Digital, OAB/PA, Subseção Marabá.">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/png;base64,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">
+<style>
+:root{
+  --navy:#001333; --navy-med:#01274E; --azul:#0095D9; --vermelho:#D1232D;
+  --gelo:#EBF6FD; --azul-claro:#D6EDF9; --callout:#E8F4FA; --cinza:#F2F2F2;
+  --papel:#FFFFFF; --tinta:#101820; --tinta-fraca:#4C5A66; --link:#0563C1;
+  --borda:#D5E3EE; --borda-forte:#B7CEDF;
+  --corpo: Arial, "Helvetica Neue", Helvetica, "Segoe UI", Roboto, sans-serif;
+  --cond: "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+  --dado: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Consolas, monospace;
+  --larg: 780px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--papel); color:var(--tinta);
+  font-family:var(--corpo); font-size:17px; line-height:1.62;
+}
+p{margin:0 0 .85em}
+a{color:var(--link)}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{
+  outline:3px solid var(--azul); outline-offset:2px; border-radius:2px;
+}
+.env{max-width:var(--larg); margin:0 auto; padding:0 20px}
+
+/* ── barra institucional fixa ───────────────────────────────── */
+.barra{
+  position:sticky; top:0; z-index:40; background:var(--navy); color:#fff;
+  border-bottom:3px solid var(--azul);
+}
+.barra .env{display:flex; align-items:center; gap:10px; min-height:52px}
+.barra img{width:26px;height:26px;flex:0 0 auto;background:#fff;border-radius:3px;padding:1px}
+.barra-txt{font-family:var(--cond); letter-spacing:.06em; text-transform:uppercase; font-size:12.5px; line-height:1.25}
+.barra-txt b{display:block;font-weight:700}
+.barra-txt span{color:#9FD2EE}
+.barra-doc{margin-left:auto; font-family:var(--dado); font-size:11px; color:#9FD2EE; text-align:right; white-space:nowrap}
+
+/* ── navegação por âncoras ──────────────────────────────────── */
+.chips{
+  position:sticky; top:52px; z-index:35; background:var(--gelo);
+  border-bottom:1px solid var(--borda-forte); overflow-x:auto; -webkit-overflow-scrolling:touch;
+}
+.chips ul{display:flex; gap:6px; list-style:none; margin:0; padding:8px 20px; white-space:nowrap}
+.chips a{
+  display:block; padding:5px 11px; border:1px solid var(--borda-forte); border-radius:999px;
+  background:#fff; color:var(--navy-med); text-decoration:none; font-size:13px; font-weight:700;
+}
+.chips a:hover{background:var(--azul); color:#fff; border-color:var(--azul)}
+
+/* ── abertura ───────────────────────────────────────────────── */
+.abertura{padding:38px 0 6px}
+.olho{font-family:var(--cond); text-transform:uppercase; letter-spacing:.22em; font-size:13px; color:var(--azul); font-weight:700; margin:0 0 4px}
+h1{
+  font-family:var(--cond); font-weight:700; font-size:clamp(46px,15vw,86px);
+  line-height:.92; letter-spacing:.02em; margin:0 0 14px; color:var(--navy);
+}
+.linhafina{font-size:20px; line-height:1.4; color:var(--navy-med); margin:0 0 6px; max-width:34em}
+.credito{font-size:14px; color:var(--tinta-fraca); margin:0}
+
+/* ── painel de emergência ───────────────────────────────────── */
+.socorro{
+  background:var(--navy); color:#fff; border-radius:6px; padding:22px 20px 20px; margin:26px 0 30px;
+  border-left:6px solid var(--vermelho);
+}
+.socorro h2{
+  font-family:var(--cond); text-transform:uppercase; letter-spacing:.1em; font-size:15px;
+  margin:0 0 14px; color:#fff; font-weight:700;
+}
+.socorro h2::before{content:""; display:inline-block; width:9px;height:9px;border-radius:50%;background:var(--vermelho); margin-right:9px; vertical-align:middle}
+.agora{list-style:none; margin:0 0 18px; padding:0; counter-reset:ag}
+.agora li{
+  counter-increment:ag; position:relative; padding:0 0 0 40px; margin:0 0 12px; font-size:16.5px; line-height:1.45;
+}
+.agora li::before{
+  content:counter(ag); position:absolute; left:0; top:1px; width:27px; height:27px;
+  display:flex; align-items:center; justify-content:center; border-radius:50%;
+  background:var(--azul); color:#fff; font-family:var(--dado); font-size:13px; font-weight:700;
+}
+.agora b{color:#fff}
+.agora .obs{display:block; color:#9FD2EE; font-size:14.5px; margin-top:2px}
+.acoes{display:flex; flex-wrap:wrap; gap:9px}
+.btn{
+  display:inline-block; padding:11px 16px; min-height:44px; border-radius:4px; text-decoration:none;
+  font-weight:700; font-size:15px; border:2px solid transparent; cursor:pointer; font-family:var(--corpo);
+  line-height:1.35;
+}
+.btn-azul{background:var(--azul); color:#fff}
+.btn-azul:hover{background:#007ab4}
+.btn-vazado{background:transparent; color:#fff; border-color:#4E7FA6}
+.btn-vazado:hover{border-color:#fff}
+
+/* ── bifurcação: elemento-assinatura ────────────────────────── */
+.bif{margin:8px 0 34px}
+.bif-tit{
+  font-family:var(--cond); text-transform:uppercase; letter-spacing:.16em; font-size:12.5px;
+  color:var(--azul); font-weight:700; margin:0 0 10px;
+}
+.bif-perg{
+  border:2px solid var(--navy); border-radius:5px; background:var(--gelo); padding:16px 18px;
+  text-align:center; position:relative; font-weight:700; font-size:17.5px; color:var(--navy);
+}
+.bif-perg small{display:block; font-weight:400; font-size:14.5px; color:var(--navy-med); margin-top:5px}
+.bif-ramos{display:grid; gap:16px; position:relative; padding-top:34px; margin-top:0}
+.bif-ramos::before{content:""; position:absolute; top:0; left:50%; width:3px; height:18px; background:var(--navy); transform:translateX(-50%)}
+.ramo{border:1px solid var(--borda-forte); border-top:5px solid var(--azul); border-radius:5px; padding:15px 16px; background:#fff; position:relative}
+.ramo.seu{border-top-color:var(--navy-med)}
+.ramo.tribunal{border-top-color:var(--vermelho)}
+.ramo .tag{
+  display:inline-block; font-family:var(--cond); text-transform:uppercase; letter-spacing:.12em;
+  font-size:11.5px; font-weight:700; padding:3px 9px; border-radius:3px; margin-bottom:8px; color:#fff;
+}
+.ramo.seu .tag{background:var(--navy-med)}
+.ramo.tribunal .tag{background:var(--vermelho)}
+.ramo h3{margin:0 0 6px; font-size:17px; color:var(--navy); line-height:1.3}
+.ramo p{margin:0 0 8px; font-size:15.5px; line-height:1.5}
+.ramo .base{font-family:var(--dado); font-size:12.5px; color:var(--tinta-fraca); display:block; border-top:1px dotted var(--borda-forte); padding-top:8px; margin-top:2px}
+@media(min-width:620px){
+  .bif-ramos{grid-template-columns:1fr 1fr; padding-top:52px}
+  .bif-ramos::before{height:18px}
+  .bif-ramos::after{content:""; position:absolute; top:18px; left:25%; right:25%; height:3px; background:var(--navy)}
+  .ramo::before{content:""; position:absolute; top:-34px; left:50%; width:3px; height:29px; background:var(--navy); transform:translateX(-50%)}
+}
+
+/* ── seções ─────────────────────────────────────────────────── */
+section{padding:30px 0 4px; border-top:1px solid var(--borda)}
+section:first-of-type{border-top:none}
+.cab{display:flex; align-items:flex-start; gap:12px; margin:0 0 14px}
+.cab .num{
+  flex:0 0 auto; width:36px; height:36px; background:var(--navy); color:#fff; border-radius:4px;
+  display:flex; align-items:center; justify-content:center; font-family:var(--dado); font-size:15px; font-weight:700;
+}
+.cab h2{
+  margin:2px 0 0; font-size:24px; line-height:1.22; color:var(--navy); font-weight:700; letter-spacing:-.01em;
+}
+h3.sub{
+  font-family:var(--cond); text-transform:uppercase; letter-spacing:.1em; font-size:14px;
+  color:var(--azul); margin:24px 0 8px; font-weight:700;
+}
+
+/* ── caixas ─────────────────────────────────────────────────── */
+.caixa{background:var(--callout); border-left:5px solid var(--azul); border-radius:0 4px 4px 0; padding:14px 16px; margin:16px 0}
+.caixa.alerta{background:#FDF0F0; border-left-color:var(--vermelho)}
+.caixa.interno{background:#FFF7E8; border-left-color:#C98A00}
+.caixa b.rot{display:block; color:var(--navy-med); margin-bottom:5px; font-size:15.5px}
+.caixa.alerta b.rot{color:var(--vermelho)}
+.caixa p:last-child,.caixa ul:last-child{margin-bottom:0}
+.caixa ul{margin:0; padding-left:20px}
+.caixa li{margin-bottom:5px}
+blockquote{
+  margin:16px 0; padding:13px 16px; background:var(--cinza); border-left:5px solid var(--azul);
+  font-size:15.5px; font-style:italic; color:var(--navy-med); border-radius:0 4px 4px 0;
+}
+blockquote cite{display:block; font-style:normal; font-family:var(--dado); font-size:12px; text-align:right; margin-top:7px; color:var(--tinta-fraca)}
+
+/* ── listas de passos ───────────────────────────────────────── */
+ol.passos{counter-reset:pz; list-style:none; margin:12px 0 16px; padding:0}
+ol.passos li{counter-increment:pz; position:relative; padding-left:38px; margin-bottom:11px; line-height:1.5}
+ol.passos li::before{
+  content:counter(pz); position:absolute; left:0; top:1px; width:25px;height:25px;
+  display:flex;align-items:center;justify-content:center; border:2px solid var(--azul); color:var(--azul);
+  border-radius:50%; font-family:var(--dado); font-size:12.5px; font-weight:700; background:#fff;
+}
+ol.passos b{color:var(--navy)}
+ul.marcas{margin:10px 0 16px; padding-left:20px}
+ul.marcas li{margin-bottom:7px}
+
+/* ── cartões de erro ────────────────────────────────────────── */
+.erro{border:1px solid var(--borda); border-radius:5px; margin:0 0 10px; overflow:hidden}
+.erro .sintoma{background:var(--gelo); padding:9px 14px; font-weight:700; color:var(--navy); font-size:16px; border-bottom:1px solid var(--borda)}
+.erro .corpo{padding:11px 14px; display:grid; gap:9px}
+.erro .rot{font-family:var(--cond); text-transform:uppercase; letter-spacing:.1em; font-size:11.5px; color:var(--tinta-fraca); display:block}
+.erro .corpo div{font-size:15.5px; line-height:1.45}
+@media(min-width:620px){.erro .corpo{grid-template-columns:1fr 1fr; gap:9px 22px}}
+
+/* ── contatos ───────────────────────────────────────────────── */
+.contato{border:1px solid var(--borda); border-radius:5px; padding:13px 15px; margin-bottom:10px; background:#fff}
+.contato .quem{font-weight:700; color:var(--navy); font-size:16.5px; line-height:1.3}
+.contato .pra{font-size:14.5px; color:var(--tinta-fraca); margin:2px 0 9px; line-height:1.4}
+.contato .val{font-family:var(--dado); font-size:16px; color:var(--navy-med); display:block; margin-bottom:9px; word-break:break-word}
+.contato .links{display:flex; flex-wrap:wrap; gap:8px}
+.mini{
+  display:inline-block; padding:9px 14px; min-height:42px; border-radius:4px; text-decoration:none;
+  font-size:14.5px; font-weight:700; border:2px solid var(--azul); color:var(--azul); background:#fff; line-height:1.5;
+}
+.mini:hover{background:var(--azul); color:#fff}
+.mini.cheio{background:var(--azul); color:#fff}
+.mini.cheio:hover{background:#007ab4}
+
+/* ── ficha interativa ───────────────────────────────────────── */
+.ficha{background:var(--gelo); border:1px solid var(--borda-forte); border-radius:6px; padding:18px 16px}
+.campo{margin-bottom:13px}
+.campo label{display:block; font-weight:700; font-size:14.5px; color:var(--navy-med); margin-bottom:4px}
+.campo input,.campo select,.campo textarea{
+  width:100%; padding:10px 11px; font-size:16px; font-family:var(--corpo); color:var(--tinta);
+  border:1px solid var(--borda-forte); border-radius:4px; background:#fff; min-height:44px;
+}
+.campo textarea{min-height:76px; resize:vertical}
+.dupla{display:grid; gap:13px}
+@media(min-width:560px){.dupla{grid-template-columns:1fr 1fr}}
+#saida{width:100%; min-height:150px; font-family:var(--dado); font-size:13px; margin-top:12px; padding:11px; border:1px solid var(--borda-forte); border-radius:4px; display:none; background:#fff}
+.aviso{font-size:13.5px; color:var(--tinta-fraca); margin-top:10px}
+
+/* ── quadro normativo ───────────────────────────────────────── */
+dl.normas{margin:8px 0 20px}
+.norma{display:grid; gap:2px 18px; padding:11px 0; border-bottom:1px solid var(--borda)}
+.norma:last-child{border-bottom:none}
+.norma dt{font-family:var(--dado); font-size:13.5px; font-weight:700; color:var(--navy-med)}
+.norma dd{margin:0; font-size:15px; line-height:1.45}
+@media(min-width:620px){.norma{grid-template-columns:240px 1fr}}
+
+/* ── rodapé ─────────────────────────────────────────────────── */
+footer{background:var(--navy); color:#B9D9EC; padding:22px 0 26px; margin-top:26px; font-size:13.5px}
+footer a{color:#9FD2EE}
+footer .fund{margin-top:10px; font-size:12.5px; line-height:1.7; color:#8FB6CE}
+
+.topo{display:inline-block; margin:18px 0 0; font-size:14px; font-weight:700; text-decoration:none}
+
+@media(prefers-reduced-motion:no-preference){
+  .ramo{opacity:0; transform:translateY(10px); transition:opacity .45s ease, transform .45s ease}
+  .ramo.vis{opacity:1; transform:none}
+}
+
+@media print{
+  .barra,.chips,.acoes,.links,.topo,.mini,.btn,#copiar,#gerar,.caixa.interno{display:none !important}
+  body{font-size:11pt}
+  .socorro{background:#fff; color:#000; border:2px solid #000}
+  .socorro h2,.agora b,.agora .obs{color:#000}
+  .agora li::before{background:#000}
+  section{page-break-inside:avoid; border-top:1px solid #999}
+  a[href^="http"]::after{content:" (" attr(href) ")"; font-size:9pt; word-break:break-all}
+  footer{background:#fff;color:#000;border-top:2px solid #000}
+}
+</style>
+</head>
+<body>
+
+<header class="barra">
+  <div class="env">
+    <img src="data:image/png;base64,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" alt="Brasão da OAB">
+    <div class="barra-txt">
+      <b>OAB/PA <span>&middot;</span> Subseção Marabá</b>
+      <span>Comissão de Direito Digital</span>
+    </div>
+    <div class="barra-doc">Cartilha<br>001/2026</div>
+  </div>
+</header>
+
+<nav class="chips" aria-label="Ir para a seção">
+  <ul class="env" style="padding-left:20px;padding-right:20px">
+    <li><a href="#socorro">Erro agora</a></li>
+    <li><a href="#regimes">Duas falhas</a></li>
+    <li><a href="#acesso">Acesso correto</a></li>
+    <li><a href="#provar">P Provar</a></li>
+    <li><a href="#ambiente">A Ambiente</a></li>
+    <li><a href="#reiniciar">R Reiniciar</a></li>
+    <li><a href="#escalar">E Escalar</a></li>
+    <li><a href="#contatos">Contatos</a></li>
+    <li><a href="#djen">DJEN e Domicílio</a></li>
+    <li><a href="#prazo">Prazo</a></li>
+    <li><a href="#erros">Erros comuns</a></li>
+    <li><a href="#prevencao">Prevenção</a></li>
+    <li><a href="#ficha">Registrar ocorrência</a></li>
+    <li><a href="#normas">Quadro normativo</a></li>
+  </ul>
+</nav>
+
+<main class="env">
+
+  <div class="abertura">
+    <p class="olho">Protocolo</p>
+    <h1>P.A.R.E.</h1>
+    <p class="linhafina">Erro no PJe. O que fazer, na ordem, antes de perder o prazo.</p>
+    <p class="credito">Cartilha Técnica CDD nº 001/2026 &middot; Comissão de Direito Digital da OAB/PA, Subseção Marabá</p>
+  </div>
+
+  <!-- ── PAINEL DE EMERGÊNCIA ────────────────────────────────── -->
+  <div class="socorro" id="socorro">
+    <h2>Está com erro na tela agora</h2>
+    <ol class="agora">
+      <li><b>Não repita o clique.</b><span class="obs">Sessão travada se acumula no servidor e passa a recusar novas tentativas.</span></li>
+      <li><b>Tire o print da tela inteira, com o relógio do computador à vista.</b><span class="obs">A tela de erro some quando você recarrega a página. Trinta segundos aqui salvam o argumento depois.</span></li>
+      <li><b>Confira por onde você entrou.</b><span class="obs">O endereço certo é pje.jus.br, com escolha de Estado e Tribunal. Link antigo do portal do Tribunal costuma estar quebrado.</span></li>
+    </ol>
+    <div class="acoes">
+      <a class="btn btn-azul" href="https://www.pje.jus.br/" target="_blank" rel="noopener">Abrir o PJe pelo endereço certo</a>
+      <a class="btn btn-vazado" href="#contatos">Falar com o suporte</a>
+    </div>
+    <p style="margin:16px 0 0;font-size:15px;color:#9FD2EE;line-height:1.5">
+      O problema não é erro na tela, e sim intimação que você não viu?
+      <a href="#djen" style="color:#fff;font-weight:700">Vá direto para DJEN e Domicílio</a>, porque o regime é outro.
+    </p>
+  </div>
+
+  <!-- ── BIFURCAÇÃO ─────────────────────────────────────────── -->
+  <div class="bif">
+    <p class="bif-tit">A pergunta que decide tudo</p>
+    <div class="bif-perg">
+      Funcionou em outro computador e em outra rede?
+      <small>Use o celular como roteador. Este é o único teste cujo resultado tem valor jurídico.</small>
+    </div>
+    <div class="bif-ramos">
+      <div class="ramo seu">
+        <span class="tag">Sim, funcionou</span>
+        <h3>O problema é do seu ambiente</h3>
+        <p>O prazo <b>não</b> se prorroga. Falha de equipamento, de programa ou de internet do usuário não é indisponibilidade do sistema.</p>
+        <p>Volte às etapas A e R e resolva. Se o prazo estiver apertado, resolva em outra máquina.</p>
+        <span class="base">Res. CNJ 185/2013, art. 9º, §1º e §2º</span>
+      </div>
+      <div class="ramo tribunal">
+        <span class="tag">Não, falhou em tudo</span>
+        <h3>Há indício de indisponibilidade</h3>
+        <p>Se outros colegas relatam a mesma falha no mesmo horário, o indício se confirma. Passe imediatamente à etapa E.</p>
+        <p>Abra chamado, anote o número e baixe a certidão de indisponibilidade no mesmo dia.</p>
+        <span class="base">Res. CNJ 185/2013, arts. 9º, 10, §3º e 11</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ── 1 DUAS FALHAS ──────────────────────────────────────── -->
+  <section id="regimes">
+    <div class="cab"><div class="num">1</div><h2>As duas falhas, dois regimes</h2></div>
+    <p>Existem duas falhas distintas, sujeitas a normas distintas, e confundi-las custa prazo.</p>
+    <p>A <b>falha de peticionamento</b> é a que se vê: você tenta praticar o ato e o sistema não responde. É a hipótese da Resolução CNJ 185/2013, que rege o PJe dos tribunais, e é o que o protocolo P.A.R.E. resolve.</p>
+    <p>A <b>falha de intimação</b> é a que não se vê: você não toma ciência do ato, seja porque o canal falhou, seja porque estava acompanhando o canal errado. Essa migrou para a Resolução CNJ 455/2022, que rege o Portal de Serviços, o DJEN e o Domicílio Judicial Eletrônico.</p>
+    <p>Os critérios de prorrogação são quase idênticos nas duas normas, o que dá a impressão falsa de que tanto faz. Não tanto faz: o sistema auditado é outro, a certidão sai em outro lugar e o dever de acompanhamento recai sobre outro canal.</p>
+
+    <div class="erro"><div class="sintoma">Falha de peticionamento</div><div class="corpo">
+      <div><span class="rot">O que acontece</span>Não consegue protocolar, assinar ou consultar os autos</div>
+      <div><span class="rot">Sistema</span>PJe do TJPA</div>
+      <div><span class="rot">Norma</span>Res. CNJ 185/2013, arts. 9º a 11</div>
+      <div><span class="rot">Onde fica a certidão</span>Portal PJe do TJPA</div></div></div>
+
+    <div class="erro"><div class="sintoma">Falha de intimação</div><div class="corpo">
+      <div><span class="rot">O que acontece</span>Não toma ciência do ato, ou toma tarde demais</div>
+      <div><span class="rot">Sistema</span>DJEN e Domicílio, no Portal de Serviços</div>
+      <div><span class="rot">Norma</span>Res. CNJ 455/2022, arts. 6º a 8º e 11</div>
+      <div><span class="rot">Onde fica a certidão</span>Portal de Serviços, jus.br</div></div></div>
+
+    <div class="caixa alerta">
+      <b class="rot">Erro de busca que parece ausência de falha</b>
+      <p>Quem procura no Portal PJe do TJPA a certidão de uma falha do DJEN não encontra nada, e conclui que não houve falha. Confira sempre no sistema certo.</p>
+    </div>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 2 ROTA DE ACESSO ───────────────────────────────────── -->
+  <section id="acesso">
+    <div class="cab"><div class="num">2</div><h2>A rota de acesso correta</h2></div>
+    <p>Parcela relevante das falhas relatadas como erro do sistema não é erro do sistema: é endereço errado. O hábito difundido é abrir o portal do Tribunal e procurar ali o link do PJe. Esse caminho é frágil por três razões. A página institucional é atualizada com periodicidade própria e pode conservar endereço antigo. O link publicado pode estar quebrado sem que exista qualquer indisponibilidade. E o favorito salvo há meses aponta para um endereço que mudou de versão.</p>
+    <p>O caminho estável é o ponto de acesso nacional mantido pelo Conselho Nacional de Justiça, que reúne todas as implantações do PJe em um único lugar. Escolha o Estado, escolha o Tribunal, siga para o sistema.</p>
+    <p><a class="mini cheio" href="https://www.pje.jus.br/" target="_blank" rel="noopener">Abrir www.pje.jus.br</a></p>
+    <div class="caixa">
+      <b class="rot">Regra prática</b>
+      <p>Salve nos favoritos o ponto de acesso nacional, e não a página institucional do Tribunal. Quando o endereço do sistema muda, o ponto nacional acompanha. O favorito antigo, não.</p>
+    </div>
+
+    <h3 class="sub">Alerta de segurança</h3>
+    <p>Não acesse o PJe por resultado de busca no Google nem por link recebido em aplicativo de mensagem, ainda que encaminhado por colega de confiança. Endereços de sistemas judiciais são alvo conhecido de páginas falsas, e o que se pretende capturar é exatamente o que você tem de mais sensível: credenciais, PIN do certificado e sessão autenticada. Digite o endereço, ou use favorito criado por você a partir do endereço digitado. Antes de informar qualquer dado, confira se o domínio termina em <span style="font-family:var(--dado)">jus.br</span> e se a conexão é segura.</p>
+
+    <h3 class="sub">Endereços de referência</h3>
+    <ul class="marcas">
+      <li><b>Acesso nacional, por Estado e Tribunal:</b> <a href="https://www.pje.jus.br/" target="_blank" rel="noopener">www.pje.jus.br</a></li>
+      <li><b>PJe do TJPA, acesso direto:</b> <a href="https://pje.tjpa.jus.br" target="_blank" rel="noopener">pje.tjpa.jus.br</a></li>
+      <li><b>Assinador PJeOffice, download e documentação:</b> <a href="https://docs.pje.jus.br/servicos-negociais/pjeoffice-pro/" target="_blank" rel="noopener">docs.pje.jus.br</a></li>
+      <li><b>Ambiente de treinamento:</b> disponível no menu do ponto de acesso nacional. Teste seu certificado ali, sem risco algum sobre processo real.</li>
+      <li><b>Registro de indisponibilidade do TJPA:</b> <a href="https://www.tjpa.jus.br/PortalExterno/institucional/Portal-PJE/942-Apresentacao.xhtml" target="_blank" rel="noopener">Portal PJe do TJPA</a></li>
+    </ul>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 2 PROVAR ───────────────────────────────────────────── -->
+  <section id="provar">
+    <div class="cab"><div class="num">P</div><h2>Provar: registre antes de mexer</h2></div>
+    <p>O registro vem antes de qualquer tentativa de solução, porque a tela de erro desaparece assim que a página é recarregada. Sem ele, você fica na pior posição possível: sabe que o sistema falhou e não consegue demonstrar nada.</p>
+    <ul class="marcas">
+      <li><b>Captura da tela inteira,</b> com o relógio do computador visível. No Windows, tecla <span style="font-family:var(--dado)">PrtSc</span>, ou <span style="font-family:var(--dado)">Windows + Shift + S</span> para recorte.</li>
+      <li><b>Mensagem literal do erro,</b> inclusive códigos e números que apareçam.</li>
+      <li><b>Data e hora de cada tentativa,</b> com precisão de minuto.</li>
+      <li><b>Número do processo e o ato pretendido,</b> como protocolo de inicial ou juntada.</li>
+      <li><b>Prazo em curso</b> e se aquele era o último dia.</li>
+    </ul>
+    <div class="caixa">
+      <b class="rot">Até onde a captura de tela serve</b>
+      <p>A captura não é certidão e, isoladamente, não prova indisponibilidade. A jurisprudência exige a certidão oficial do Tribunal. A captura instrui o chamado técnico, sustenta a petição de justificativa e alimenta o registro da Comissão. É a base de tudo o que vem depois, mas não é a prova final.</p>
+    </div>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 3 AMBIENTE ─────────────────────────────────────────── -->
+  <section id="ambiente">
+    <div class="cab"><div class="num">A</div><h2>Ambiente: cinco checagens, nesta ordem</h2></div>
+    <p>Do mais simples ao mais específico. Na grande maioria dos casos o problema se resolve antes da quinta.</p>
+    <ol class="passos">
+      <li><b>Internet.</b> Abra um site pesado e faça um teste de velocidade. Conexão instável produz os mesmos sintomas de servidor fora do ar: página em branco, erro de script, upload que trava na metade.</li>
+      <li><b>Navegador.</b> Firefox ou Chrome, sempre na versão atual. Teste em janela anônima. Limpe o cache com <span style="font-family:var(--dado)">Ctrl + Shift + Delete</span>. Troque de navegador. Muitos erros de leitura de certificado se resolvem exatamente aqui.</li>
+      <li><b>Assinador PJeOffice.</b> Precisa estar em execução, não apenas instalado. O ícone fica na bandeja, ao lado do relógio. Sem ele, o certificado não aparece por mais que o token esteja conectado. Confira também se o modo de assinatura selecionado é o PJeOffice.</li>
+      <li><b>Token e certificado.</b> Retire e recoloque o token, em outra porta USB, sem hub. Confira o driver, a cadeia da ICP-Brasil e, sobretudo, a validade. PIN errado três vezes bloqueia o dispositivo e o desbloqueio depende da autoridade certificadora, o que não sai no mesmo dia.</li>
+    </ol>
+    <div class="caixa alerta">
+      <b class="rot">A assinatura é sua, e o risco também</b>
+      <p>A validade jurídica dessa assinatura vem da MP 2.200-2/2001, que institui a ICP-Brasil. Daí decorre o art. 4º, §2º, da Resolução CNJ 185/2013: você responde pela guarda, pelo sigilo e pelo uso da assinatura digital, e alegação de uso indevido não é oponível em hipótese alguma. Token emprestado, senha compartilhada ou dispositivo extraviado são risco integral do titular.</p>
+    </div>
+    <ol class="passos" style="counter-reset:pz 4">
+      <li><b>Teste decisivo.</b> Outro computador e outra rede, com o celular como roteador. É o que separa o problema local do problema do Tribunal.</li>
+    </ol>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 4 REINICIAR ────────────────────────────────────────── -->
+  <section id="reiniciar">
+    <div class="cab"><div class="num">R</div><h2>Reiniciar: a ordem importa</h2></div>
+    <p>Fechar a janela no X não encerra a sessão. Ela continua aberta no servidor e conflita com a nova tentativa, o que produz erros de autenticação aparentemente inexplicáveis. Siga a sequência inteira.</p>
+    <ol class="passos">
+      <li><b>Saia pelo menu do sistema.</b> No PJe, use a opção de sair da conta. Não feche a janela direto.</li>
+      <li><b>Feche o navegador por completo.</b> Todas as janelas e abas.</li>
+      <li><b>Encerre o PJeOffice pela bandeja.</b> Botão direito no ícone ao lado do relógio, sair.</li>
+      <li><b>Retire o token</b> fisicamente da porta USB.</li>
+      <li><b>Aguarde trinta segundos,</b> para a sessão expirar no servidor.</li>
+      <li><b>Recoloque o token,</b> de preferência em outra porta.</li>
+      <li><b>Abra primeiro o PJeOffice</b> e confirme que o ícone apareceu na bandeja.</li>
+      <li><b>Abra o navegador e entre no PJe,</b> conferindo o modo de assinatura.</li>
+    </ol>
+    <p>Se persistir, reinicie o computador e repita a sequência <b>uma única vez</b>. Sem êxito, pare. Insistir além disso só consome o prazo.</p>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 5 ESCALAR ──────────────────────────────────────────── -->
+  <section id="escalar">
+    <div class="cab"><div class="num">E</div><h2>Escalar: quando não é você</h2></div>
+    <p>Escale quando as etapas anteriores foram cumpridas e a falha persiste, ou quando o teste decisivo apontou para fora do seu ambiente. Escalar cedo demais congestiona o suporte. Escalar tarde demais custa o prazo.</p>
+    <div class="caixa">
+      <b class="rot">Antes de escalar, tente a rota alternativa de protocolo</b>
+      <p>Com o PJe do Tribunal fora, verifique se o Portal de Serviços está no ar. O art. 3º, II, da Resolução CNJ 455/2022, na redação da Resolução CNJ 624/2025, admite peticionamento inicial e intercorrente em todos os processos que tramitem em sistemas conectados à PDPJ-Br.</p>
+      <p>O §3º do mesmo artigo diz que o protocolo feito pelo Portal é considerado realizado diretamente perante o juízo, e que o recibo prova o cumprimento do prazo para os fins do art. 218 do CPC. O recibo traz o hash de cada documento, a data e hora no fuso de Brasília e o número da OAB. Guarde esse recibo.</p>
+      <p style="margin-bottom:0"><a class="mini cheio" href="https://www.jus.br" target="_blank" rel="noopener">Abrir jus.br</a></p>
+    </div>
+
+    <div class="caixa alerta">
+      <b class="rot">Exija o número do chamado</b>
+      <p>Atendimento sem número de protocolo não deixa rastro e não serve como prova. Anote o número, a data, a hora e o nome de quem atendeu. É esse número que permite demonstrar diligência depois.</p>
+    </div>
+
+    <h3 class="sub" id="contatos">Contatos de suporte</h3>
+
+    <div class="contato">
+      <div class="quem">TJPA, Suporte PJe</div>
+      <div class="pra">Falhas do PJe no TJPA. Contato direto, por WhatsApp.</div>
+      <span class="val">(91) 3289-7100</span>
+      <div class="links">
+        <a class="mini cheio" href="https://wa.me/559132897100" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="mini" href="tel:+559132897100">Ligar</a>
+      </div>
+    </div>
+
+    <div class="contato">
+      <div class="quem">TJPA, Central de Serviços</div>
+      <div class="pra">Chamado formal. É o canal que gera número de protocolo. Use sempre que houver prazo em curso.</div>
+      <div class="links">
+        <a class="mini cheio" href="https://www.tjpa.jus.br/PortalExterno/institucional/Secretaria-de-Tecnologia-da-Informacao-e-Comunicacao-do-TJPA/363244-portal-central-de-servicos.xhtml" target="_blank" rel="noopener">Registrar chamado</a>
+      </div>
+    </div>
+
+    <div class="contato">
+      <div class="quem">TJPA, Telejudiciário</div>
+      <div class="pra">Atendimento institucional, das 8h às 14h.</div>
+      <span class="val">(91) 3205-2000</span>
+      <div class="links"><a class="mini cheio" href="tel:+559132052000">Ligar</a></div>
+    </div>
+
+    <div class="contato">
+      <div class="quem">OAB/PA, Setor de Informática</div>
+      <div class="pra">Apoio da Seccional ao advogado, por WhatsApp.</div>
+      <span class="val">(91) 8129-1400</span>
+      <div class="links">
+        <a class="mini cheio" href="https://wa.me/559181291400" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="mini" href="tel:+559181291400">Ligar</a>
+      </div>
+    </div>
+
+    <div class="contato">
+      <div class="quem">CNJ, Suporte PJe</div>
+      <div class="pra">Falhas de âmbito nacional do sistema.</div>
+      <span class="val">(61) 2326-5353 &middot; pje.suporte@cnj.jus.br</span>
+      <div class="links">
+        <a class="mini cheio" href="tel:+556123265353">Ligar</a>
+        <a class="mini" href="mailto:pje.suporte@cnj.jus.br">E-mail</a>
+      </div>
+    </div>
+
+    <div class="contato">
+      <div class="quem">Suporte PJeOffice</div>
+      <div class="pra">Problemas específicos do assinador.</div>
+      <span class="val">pjeoffice@trf3.jus.br</span>
+      <div class="links"><a class="mini cheio" href="mailto:pjeoffice@trf3.jus.br">E-mail</a></div>
+    </div>
+
+    <div class="caixa">
+      <b class="rot">Ordem de acionamento sugerida</b>
+      <ul>
+        <li>Suporte PJe do TJPA, para resposta rápida e diagnóstico.</li>
+        <li>Central de Serviços do TJPA, sempre que houver prazo em curso, porque gera protocolo.</li>
+        <li>Setor de Informática da OAB/PA, quando o Tribunal não responder ou a falha atingir vários colegas.</li>
+        <li>Suporte do CNJ, quando a falha não for exclusiva do TJPA.</li>
+      </ul>
+    </div>
+
+    <h3 class="sub">A certidão de indisponibilidade</h3>
+    <p>Havendo indisponibilidade, o TJPA publica o registro no Portal PJe. O relatório de interrupção é assinado digitalmente, tem efeito de certidão e fica acessível preferencialmente em tempo real ou, no máximo, até as 12h do dia seguinte. Baixe no mesmo dia: é ele, e não a captura de tela, que instrui o pedido de prorrogação.</p>
+    <p><a class="mini cheio" href="https://www.tjpa.jus.br/PortalExterno/institucional/Portal-PJE/942-Apresentacao.xhtml" target="_blank" rel="noopener">Registro de indisponibilidade</a></p>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+
+  <!-- ── 3 DJEN E DOMICÍLIO ─────────────────────────────────── -->
+  <section id="djen">
+    <div class="cab"><div class="num">3</div><h2>DJEN e Domicílio: a falha que não aparece na tela</h2></div>
+    <p>As seções anteriores tratam da falha que se vê. Esta trata da que não se vê, e que por isso é mais perigosa: a intimação que ocorreu sem que você tomasse conhecimento.</p>
+
+    <h3 class="sub">O que mudou na intimação</h3>
+    <p>A publicação no Diário de Justiça Eletrônico Nacional substitui qualquer outro meio de publicação oficial para fins de intimação, ressalvados os casos em que a lei exija vista ou intimação pessoal, que passam pelo Domicílio. É o art. 11, §2º, da Resolução CNJ 455/2022. Para o advogado, porém, o dispositivo decisivo é o §3º do mesmo artigo, na redação da Resolução CNJ 569/2024.</p>
+    <blockquote>
+      Nos casos em que a lei não exigir vista ou intimação pessoal, os prazos processuais serão contados a partir da publicação no DJEN, na forma do art. 224, §§ 1º e 2º, do CPC, possuindo valor meramente informacional a eventual concomitância de intimação ou comunicação por outros meios.
+      <cite>Resolução CNJ 455/2022, art. 11, §3º</cite>
+    </blockquote>
+    <div class="caixa alerta">
+      <b class="rot">A consequência, em uma frase</b>
+      <p>O prazo corre da publicação no DJEN. Painel de expedientes do PJe, aviso por e-mail e notificação do sistema do escritório têm <b>valor meramente informacional</b>. Se o DJEN publicou e o painel do PJe falhou, o prazo correu do mesmo jeito, e a falha do painel não socorre ninguém.</p>
+    </div>
+
+    <h3 class="sub">O Domicílio e os prazos de ciência</h3>
+    <p>O Domicílio é usado exclusivamente para citação eletrônica e para comunicações que exijam vista, ciência ou intimação pessoal, com exceção da citação por edital, que vai pelo DJEN. A comunicação se aperfeiçoa no momento em que você acessa o conteúdo pelo Portal de Serviços. Consulta em dia não útil considera-se realizada no primeiro dia útil seguinte.</p>
+
+    <div class="erro"><div class="sintoma">Citação eletrônica sem consulta</div><div class="corpo">
+      <div><span class="rot">Prazo</span>3 dias úteis do envio</div>
+      <div><span class="rot">Efeito</span>O sistema gera a informação de ausência de citação, art. 246, §1º-A, do CPC</div></div></div>
+
+    <div class="erro"><div class="sintoma">Citação consultada dentro do prazo</div><div class="corpo">
+      <div><span class="rot">Prazo</span>imediato</div>
+      <div><span class="rot">Efeito</span>O prazo de resposta começa no 5º dia útil seguinte à confirmação, art. 231, IX, do CPC</div></div></div>
+
+    <div class="erro"><div class="sintoma">Pessoa jurídica de direito público sem consulta</div><div class="corpo">
+      <div><span class="rot">Prazo</span>10 dias corridos</div>
+      <div><span class="rot">Efeito</span>Considera-se citada no término do prazo</div></div></div>
+
+    <div class="erro"><div class="sintoma">Demais intimações pessoais sem aperfeiçoamento</div><div class="corpo">
+      <div><span class="rot">Prazo</span>10 dias corridos</div>
+      <div><span class="rot">Efeito</span>Considera-se realizada no término do prazo</div></div></div>
+
+    <p>As comunicações ficam disponíveis no Domicílio por vinte e quatro meses. Quem precisar do inteiro teor de uma comunicação antiga deve baixá-la antes disso.</p>
+
+    <h3 class="sub">A indisponibilidade do Portal de Serviços</h3>
+    <p>O Portal tem regime próprio, nos arts. 6º a 8º da Resolução CNJ 455/2022. A definição de indisponibilidade é a mesma, e o §1º do art. 6º também exclui as falhas de equipamento e programa do usuário. Os critérios de prorrogação do art. 8º são idênticos: mais de sessenta minutos entre 6h e 23h, ou qualquer indisponibilidade entre 23h e 24h. O relatório de interrupção, porém, sai no próprio Portal, em até doze horas da constatação.</p>
+    <div class="caixa">
+      <b class="rot">Não confunda as duas certidões</b>
+      <ul>
+        <li>Falha no PJe do TJPA: certidão no Portal PJe do TJPA, item Registro de Indisponibilidade.</li>
+        <li>Falha no Portal de Serviços, no DJEN ou no Domicílio: relatório no próprio Portal de Serviços.</li>
+        <li>Procurar no lugar errado e não achar nada não significa que a falha não ocorreu.</li>
+      </ul>
+    </div>
+
+    <h3 class="sub">Rotina mínima de acompanhamento</h3>
+    <ol class="passos">
+      <li><b>Acompanhe o DJEN, não o painel do PJe.</b> O painel é conveniência, o DJEN é o marco legal do prazo.</li>
+      <li><b>Confira o Domicílio nas citações e intimações pessoais.</b> Os prazos de ciência automática correm mesmo sem consulta.</li>
+      <li><b>Mantenha o cadastro atualizado,</b> inclusive o vínculo com a sociedade de advogados, quando houver.</li>
+      <li><b>Baixe e arquive as comunicações relevantes.</b> A disponibilidade é de vinte e quatro meses.</li>
+    </ol>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 4 PRAZO ────────────────────────────────────────────── -->
+  <section id="prazo">
+    <div class="cab"><div class="num">4</div><h2>O prazo: o que diz a norma</h2></div>
+    <h3 class="sub">Quando prorroga</h3>
+    <p>Prazos que vencem no dia da indisponibilidade vão para o dia útil seguinte em duas hipóteses: indisponibilidade superior a sessenta minutos, ininterruptos ou não, entre 6h e 23h; ou indisponibilidade entre 23h e 24h. Para prazos em hora ou minuto, a prorrogação vai até as 24h do dia útil seguinte quando houver indisponibilidade superior a sessenta minutos nas últimas vinte e quatro horas do prazo, ou nos sessenta minutos anteriores ao seu término. A prorrogação é automática.</p>
+    <h3 class="sub">Quando não prorroga</h3>
+    <p>Não produzem efeito as indisponibilidades entre 0h e 6h dos dias de expediente, nem as de feriados e finais de semana, a qualquer hora. E não configuram indisponibilidade, portanto nada prorrogam: internet do escritório, defeito de equipamento, token danificado, certificado vencido e assinador ausente ou desatualizado.</p>
+    <blockquote>
+      A não obtenção de acesso ao PJe e eventual defeito de transmissão ou recepção de dados não-imputáveis à indisponibilidade ou impossibilidade técnica do sistema não servirão de escusa para o descumprimento de prazo processual, salvo deliberação expressa da autoridade judiciária competente.
+      <cite>Resolução CNJ 185/2013, art. 26, §6º</cite>
+    </blockquote>
+    <div class="caixa alerta">
+      <b class="rot">Três consequências práticas</b>
+      <ul>
+        <li>A indisponibilidade precisa ocorrer <b>no dia do vencimento</b>, não em dia anterior.</li>
+        <li>A comprovação se faz por <b>certidão oficial</b>. Sem registro no dia indicado, o recurso costuma ser tido por intempestivo.</li>
+        <li>A alegação deve ser feita <b>na primeira oportunidade</b>, sob risco de preclusão.</li>
+      </ul>
+    </div>
+    <h3 class="sub">Se o prazo venceu no meio da falha</h3>
+    <p>Protocole assim que o sistema restabelecer, ainda que fora do prazo original, e apresente na mesma oportunidade petição de justificativa instruída com a certidão de indisponibilidade, o número do chamado e as capturas com data e hora. Em urgência com risco de perecimento de direito, admite-se o peticionamento fora do PJe, pelas vias ordinárias, quando o sistema estiver indisponível e o prazo não for prorrogável, ou quando a prorrogação puder causar o perecimento. É hipótese excepcional, a ser justificada expressamente na petição.</p>
+    <p>Guarde sempre o recibo eletrônico de protocolo de cada ato praticado.</p>
+
+    <h3 class="sub">A justa causa do Código de Processo Civil</h3>
+    <p>A prorrogação automática tem critérios rígidos: sessenta minutos, no dia do vencimento, em faixa de horário determinada. A falha real raramente se encaixa nesse molde. Quando não se encaixa, o socorro não está no ato administrativo, e sim na lei processual, que lhe é superior.</p>
+    <blockquote>
+      Art. 197. (...) Parágrafo único. Nos casos de problema técnico do sistema e de erro ou omissão do auxiliar da justiça responsável pelo registro dos andamentos, poderá ser configurada a justa causa prevista no art. 223, caput e §1º.
+      <cite>Código de Processo Civil</cite>
+    </blockquote>
+    <p>O art. 223, §1º, define justa causa como o evento alheio à vontade da parte que a impediu de praticar o ato. Verificada, o §2º determina que o juiz permita a prática do ato no prazo que assinar. É o fundamento a invocar quando a indisponibilidade não alcança o patamar da resolução, quando ocorre em dia anterior ao vencimento com efeitos que se projetam sobre a elaboração da peça, ou quando a falha é de outra natureza, como erro de registro de andamento.</p>
+    <div class="caixa">
+      <b class="rot">Dois fundamentos, não um</b>
+      <ul>
+        <li><b>Prorrogação automática:</b> Res. CNJ 185/2013, art. 11, ou Res. CNJ 455/2022, art. 8º, conforme o sistema atingido. Independe de decisão judicial.</li>
+        <li><b>Justa causa:</b> CPC, art. 197, parágrafo único, com o art. 223, §§1º e 2º. Depende de reconhecimento pelo juízo, e por isso exige petição fundamentada e instruída.</li>
+      </ul>
+    </div>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 7 ERROS ────────────────────────────────────────────── -->
+  <section id="erros">
+    <div class="cab"><div class="num">5</div><h2>Erros mais frequentes</h2></div>
+
+    <div class="erro"><div class="sintoma">Ops! Algo deu errado</div><div class="corpo">
+      <div><span class="rot">Causa comum</span>Sessão travada ou cache corrompido</div>
+      <div><span class="rot">Primeira ação</span>Sair pelo menu, limpar cache, testar em janela anônima</div></div></div>
+
+    <div class="erro"><div class="sintoma">Erro de script ou página em branco</div><div class="corpo">
+      <div><span class="rot">Causa comum</span>Navegador desatualizado, extensão ou conexão instável</div>
+      <div><span class="rot">Primeira ação</span>Trocar de navegador e testar a internet</div></div></div>
+
+    <div class="erro"><div class="sintoma">O certificado não aparece na lista</div><div class="corpo">
+      <div><span class="rot">Causa comum</span>PJeOffice fechado, desatualizado ou driver ausente</div>
+      <div><span class="rot">Primeira ação</span>Ver o ícone na bandeja e reinstalar o assinador</div></div></div>
+
+    <div class="erro"><div class="sintoma">O certificado aparece mas não assina</div><div class="corpo">
+      <div><span class="rot">Causa comum</span>PIN incorreto, certificado vencido ou modo de assinatura errado</div>
+      <div><span class="rot">Primeira ação</span>Conferir validade e o modo de assinatura na tela de acesso</div></div></div>
+
+    <div class="erro"><div class="sintoma">Falha de leitura do certificado</div><div class="corpo">
+      <div><span class="rot">Causa comum</span>Token mal encaixado, porta USB ou hub com defeito</div>
+      <div><span class="rot">Primeira ação</span>Recolocar o token em outra porta, sem hub</div></div></div>
+
+    <div class="erro"><div class="sintoma">O upload trava ou não conclui</div><div class="corpo">
+      <div><span class="rot">Causa comum</span>Arquivo acima do limite, formato não aceito ou PDF protegido</div>
+      <div><span class="rot">Primeira ação</span>Reduzir o PDF, remover senha e dividir em arquivos menores</div></div></div>
+
+    <div class="erro"><div class="sintoma">Lentidão extrema em qualquer tela</div><div class="corpo">
+      <div><span class="rot">Causa comum</span>Rede local, antivírus, firewall ou VPN</div>
+      <div><span class="rot">Primeira ação</span>Testar em outra rede, inclusive pelo celular</div></div></div>
+
+    <div class="erro"><div class="sintoma">Parou de funcionar depois de atualizar o Windows</div><div class="corpo">
+      <div><span class="rot">Causa comum</span>Perda de configuração de driver ou da cadeia de certificação</div>
+      <div><span class="rot">Primeira ação</span>Reinstalar o driver do token e a cadeia da ICP-Brasil</div></div></div>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 8 PREVENÇÃO ────────────────────────────────────────── -->
+  <section id="prevencao">
+    <div class="cab"><div class="num">6</div><h2>Prevenção: a rotina que evita a emergência</h2></div>
+    <p>A maior parte das emergências relatadas não é emergência de sistema, é ausência de rotina. Oito hábitos reduzem drasticamente a exposição.</p>
+    <ol class="passos">
+      <li><b>Teste semanal de acesso.</b> Entre no PJe uma vez por semana, mesmo sem ato a praticar, para a falha aparecer em dia tranquilo e não na véspera.</li>
+      <li><b>Controle de validade do certificado.</b> Agende o vencimento e renove com trinta dias de antecedência. A1 vence em um ano, A3 em até três.</li>
+      <li><b>Horário limite.</b> Não deixe protocolo de último dia para depois das 18h. É a faixa de menor suporte e maior risco.</li>
+      <li><b>Segundo ambiente pronto.</b> Um segundo navegador e, se possível, uma segunda máquina com token, assinador e drivers já testados.</li>
+      <li><b>Assinador atualizado.</b> Verifique o PJeOffice ao menos uma vez por mês.</li>
+      <li><b>Guarda dos recibos.</b> Arquive o recibo eletrônico de cada ato na pasta do processo.</li>
+      <li><b>Favorito correto.</b> Mantenha nos favoritos o acesso nacional e revise favoritos antigos que apontem para endereços já alterados.</li>
+      <li><b>Ambiente de treinamento.</b> Teste certificado e assinador no ambiente de treinamento do PJe, sem risco algum sobre processo real.</li>
+      <li><b>Acompanhamento diário do DJEN.</b> Organize a rotina de prazos pela publicação no Diário de Justiça Eletrônico Nacional, que é o marco legal, e trate o painel do PJe como conveniência.</li>
+    </ol>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 9 FICHA ────────────────────────────────────────────── -->
+  <section id="ficha">
+    <div class="cab"><div class="num">7</div><h2>Registrar a ocorrência na Comissão</h2></div>
+    <p>Se a falha persistiu depois da etapa R, registre. Falha isolada se resolve no balcão. Falha documentada e recorrente sustenta representação institucional. Preencha, gere o texto e envie à Comissão de Direito Digital. Nada aqui é salvo nem enviado automaticamente: o texto é montado no seu aparelho e você decide o que fazer com ele.</p>
+
+    <div class="ficha">
+      <div class="dupla">
+        <div class="campo"><label for="f_nome">Nome</label><input id="f_nome" type="text" autocomplete="name"></div>
+        <div class="campo"><label for="f_oab">Inscrição OAB</label><input id="f_oab" type="text" inputmode="numeric"></div>
+      </div>
+      <div class="dupla">
+        <div class="campo"><label for="f_data">Data da ocorrência</label><input id="f_data" type="date"></div>
+        <div class="campo"><label for="f_hora">Horário de início e fim</label><input id="f_hora" type="text" placeholder="ex.: 14h05 às 15h20"></div>
+      </div>
+      <div class="dupla">
+        <div class="campo"><label for="f_sistema">Sistema afetado</label>
+          <select id="f_sistema">
+            <option>PJe 1º grau</option><option>PJe 2º grau</option><option>Projudi</option><option>Outro</option>
+          </select></div>
+        <div class="campo"><label for="f_proc">Número do processo</label><input id="f_proc" type="text" inputmode="numeric"></div>
+      </div>
+      <div class="campo"><label for="f_ato">Ato que pretendia praticar</label><input id="f_ato" type="text" placeholder="ex.: juntada de contestação"></div>
+      <div class="campo"><label for="f_erro">Mensagem de erro, texto literal</label><textarea id="f_erro"></textarea></div>
+      <div class="dupla">
+        <div class="campo"><label for="f_maquina">Testou em outra máquina</label>
+          <select id="f_maquina"><option>Não testei</option><option>Sim, funcionou</option><option>Sim, também falhou</option></select></div>
+        <div class="campo"><label for="f_rede">Testou em outra rede</label>
+          <select id="f_rede"><option>Não testei</option><option>Sim, funcionou</option><option>Sim, também falhou</option></select></div>
+      </div>
+      <div class="dupla">
+        <div class="campo"><label for="f_chamado">Número do chamado no TJPA</label><input id="f_chamado" type="text"></div>
+        <div class="campo"><label for="f_prazo">Havia prazo vencendo no dia</label>
+          <select id="f_prazo"><option>Não</option><option>Sim</option></select></div>
+      </div>
+      <div class="campo"><label for="f_certidao">Certidão de indisponibilidade</label>
+        <select id="f_certidao"><option>Não verifiquei</option><option>Publicada</option><option>Não publicada</option></select></div>
+
+      <div class="acoes" style="margin-top:4px">
+        <button class="btn btn-azul" id="enviar" type="button">Enviar no WhatsApp</button>
+        <button class="btn btn-vazado" id="gerar" type="button" style="border-color:var(--azul);color:var(--azul)">Ver o texto</button>
+        <button class="btn btn-vazado" id="copiar" type="button" style="border-color:var(--azul);color:var(--azul)">Copiar</button>
+      </div>
+      <textarea id="saida" readonly aria-label="Registro gerado"></textarea>
+      <p class="aviso">O botão abre o WhatsApp com a mensagem já escrita, endereçada à Comissão. Você confere e envia. Anexe as capturas de tela na mesma conversa.</p>
+    </div>
+
+    <div class="caixa" style="margin-top:20px">
+      <b class="rot">O que acontece com o que você preenche</b>
+      <p>Nada é salvo nesta página e nada é enviado automaticamente. O texto é montado no seu próprio aparelho, e quem transmite é o seu WhatsApp, depois que você lê e confirma.</p>
+      <p>A Comissão usa os registros para consolidar estatística de falhas e instruir atuação institucional junto ao Tribunal. Em documentos públicos as ocorrências aparecem de forma agregada, sem identificação individual.</p>
+      <p style="margin-bottom:0">Registro de ocorrências da Comissão: <a href="https://wa.me/5594984493079" target="_blank" rel="noopener">WhatsApp (94) 98449-3079</a></p>
+    </div>
+
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+  <!-- ── 10 NOTA INSTITUCIONAL ──────────────────────────────── -->
+  <section id="nota">
+    <div class="cab"><div class="num">8</div><h2>Nota institucional</h2></div>
+    <p>O dever de manter estrutura de atendimento e suporte aos usuários é do Tribunal, por força do art. 41 da Resolução CNJ 185/2013. O art. 18 do mesmo ato impõe a manutenção de equipamentos à disposição de partes e advogados, com auxílio técnico presencial a pessoas com deficiência e a maiores de sessenta anos, e admite convênio com a Ordem dos Advogados do Brasil para compartilhar essa responsabilidade.</p>
+    <p>Esta cartilha não transfere ao advogado ônus que não lhe pertence. Ela organiza a parcela que efetivamente lhe cabe e, ao mesmo tempo, instrumentaliza a advocacia para documentar com rigor aquilo que não lhe cabe. Uma coisa é condição da outra: só se cobra o Tribunal com autoridade quando o próprio ambiente está em ordem.</p>
+    <p>A Comissão permanece à disposição para capacitação presencial e remota sobre este conteúdo e recebe de forma contínua os registros de ocorrência.</p>
+  </section>
+
+
+  <!-- ── 9 QUADRO NORMATIVO ─────────────────────────────────── -->
+  <section id="normas">
+    <div class="cab"><div class="num">9</div><h2>Quadro normativo</h2></div>
+    <p>Dispositivos que governam o acesso ao processo eletrônico, a prática do ato e a contagem do prazo diante de falha técnica. A coluna da direita indica o que cada um decide, não o seu conteúdo integral.</p>
+
+    <h3 class="sub">Lei e código</h3>
+    <dl class="normas">
+      <div class="norma"><dt>Lei 11.419/2006, art. 10, §2º</dt><dd>Prorroga o prazo quando o sistema se torna indisponível por motivo técnico</dd></div>
+      <div class="norma"><dt>Lei 9.800/1999</dt><dd>Prazo de cinco dias para assinatura de peça transmitida sem certificado</dd></div>
+      <div class="norma"><dt>MP 2.200-2/2001</dt><dd>Institui a ICP-Brasil e confere validade jurídica à assinatura digital</dd></div>
+      <div class="norma"><dt>CPC, art. 196</dt><dd>Atribui ao CNJ regulamentar a prática e a comunicação de atos por meio eletrônico</dd></div>
+      <div class="norma"><dt>CPC, art. 197, par. único</dt><dd>Problema técnico do sistema pode configurar justa causa</dd></div>
+      <div class="norma"><dt>CPC, art. 198 e par. único</dt><dd>Unidades mantêm equipamentos gratuitamente e admite-se ato não eletrônico onde não houver</dd></div>
+      <div class="norma"><dt>CPC, art. 213 e par. único</dt><dd>Protocolo até as 24h do último dia, pelo horário do juízo destinatário</dd></div>
+      <div class="norma"><dt>CPC, art. 218</dt><dd>Prazos para a prática dos atos processuais</dd></div>
+      <div class="norma"><dt>CPC, art. 223, §§1º e 2º</dt><dd>Define justa causa e autoriza o juiz a devolver o prazo</dd></div>
+      <div class="norma"><dt>CPC, art. 224, §§1º e 2º</dt><dd>Protraimento do termo inicial e final, e contagem a partir da publicação</dd></div>
+      <div class="norma"><dt>CPC, art. 231, IX</dt><dd>Termo inicial após citação eletrônica confirmada</dd></div>
+      <div class="norma"><dt>CPC, art. 246, §1º-A</dt><dd>Consequência da ausência de confirmação da citação eletrônica</dd></div>
+    </dl>
+
+    <h3 class="sub">Resolução CNJ 185/2013, peticionamento no PJe</h3>
+    <dl class="normas">
+      <div class="norma"><dt>Art. 4º, §2º</dt><dd>Responsabilidade pela guarda da assinatura, sem oposição de uso indevido</dd></div>
+      <div class="norma"><dt>Art. 9º, §§1º e 2º</dt><dd>Define indisponibilidade e exclui a falha de equipamento ou programa do usuário</dd></div>
+      <div class="norma"><dt>Art. 10, §§2º e 3º</dt><dd>Relatório de interrupções com efeito de certidão, até as 12h do dia seguinte</dd></div>
+      <div class="norma"><dt>Art. 11 e §§</dt><dd>Critérios de prorrogação automática do prazo</dd></div>
+      <div class="norma"><dt>Art. 13, §§1º e 3º</dt><dd>Tamanho de arquivo definido por cada Tribunal e peticionamento fora do PJe</dd></div>
+      <div class="norma"><dt>Art. 18 e §2º</dt><dd>Equipamentos à disposição, auxílio presencial e convênio com a OAB</dd></div>
+      <div class="norma"><dt>Art. 26, §§1º, 3º e 6º</dt><dd>Tempestividade, recibo eletrônico e ausência de escusa por falha do usuário</dd></div>
+      <div class="norma"><dt>Art. 41</dt><dd>Dever do Tribunal de manter estrutura de atendimento e suporte</dd></div>
+    </dl>
+    <p style="font-size:14px;color:var(--tinta-fraca)">Texto vigente com as alterações posteriores, a última pela Resolução CNJ 656/2025.</p>
+
+    <h3 class="sub">Resolução CNJ 455/2022, intimação e Portal de Serviços</h3>
+    <dl class="normas">
+      <div class="norma"><dt>Art. 3º, II, §§1º e 3º</dt><dd>Peticionamento pelo jus.br e recibo como prova do cumprimento do prazo</dd></div>
+      <div class="norma"><dt>Art. 6º e §§</dt><dd>Define indisponibilidade do Portal de Serviços e exclui a falha do usuário</dd></div>
+      <div class="norma"><dt>Art. 7º, §§2º e 3º</dt><dd>Relatório de interrupção no próprio Portal, em até 12 horas da constatação</dd></div>
+      <div class="norma"><dt>Art. 8º e §§</dt><dd>Critérios de prorrogação por indisponibilidade do Portal</dd></div>
+      <div class="norma"><dt>Art. 11, §§2º e 3º</dt><dd>DJEN substitui os demais meios e o prazo corre da publicação nele</dd></div>
+      <div class="norma"><dt>Art. 18</dt><dd>Domicílio para citação eletrônica e comunicações pessoais</dd></div>
+      <div class="norma"><dt>Art. 20 e §§</dt><dd>Aperfeiçoamento da comunicação e prazos de ciência automática</dd></div>
+      <div class="norma"><dt>Art. 22</dt><dd>Disponibilidade das comunicações por vinte e quatro meses</dd></div>
+    </dl>
+    <p style="font-size:14px;color:var(--tinta-fraca)">Texto vigente com as alterações das Resoluções CNJ 569/2024 e 624/2025.</p>
+    <a class="topo" href="#socorro">Voltar ao topo</a>
+  </section>
+
+
+
+</main>
+
+<footer>
+  <div class="env">
+    <b>Comissão de Direito Digital &middot; OAB/PA, Subseção Marabá</b><br>
+    Cartilha Técnica CDD nº 001/2026. Documento orientativo, sem caráter vinculante e sem substituir o suporte técnico oficial do Tribunal.<br>Registro de ocorrências: <a href="https://wa.me/5594984493079" target="_blank" rel="noopener">WhatsApp (94) 98449-3079</a>
+    <div class="fund">
+      Fundamentos:
+      <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm" target="_blank" rel="noopener">Lei 11.419/2006</a> &middot;
+      <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm" target="_blank" rel="noopener">CPC/2015</a> &middot;
+      <a href="https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm" target="_blank" rel="noopener">MP 2.200-2/2001</a> &middot;
+      <a href="https://www.planalto.gov.br/ccivil_03/leis/l9800.htm" target="_blank" rel="noopener">Lei 9.800/1999</a> &middot;
+      <a href="https://atos.cnj.jus.br/atos/detalhar/1933" target="_blank" rel="noopener">Res. CNJ 185/2013</a> &middot;
+      <a href="https://atos.cnj.jus.br/atos/detalhar/4509" target="_blank" rel="noopener">Res. CNJ 455/2022</a> &middot;
+      <a href="https://atos.cnj.jus.br/atos/detalhar/5691" target="_blank" rel="noopener">Res. CNJ 569/2024</a> &middot;
+      <a href="https://atos.cnj.jus.br/atos/detalhar/6150" target="_blank" rel="noopener">Res. CNJ 624/2025</a> &middot;
+      <a href="https://atos.cnj.jus.br/atos/detalhar/6472" target="_blank" rel="noopener">Res. CNJ 656/2025</a>.
+      <a href="#normas" style="color:#fff">Quadro completo</a>.<br>
+      Endereços conferidos em 31 de julho de 2026.
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  // Revelação das ramificações, respeitando quem pediu menos movimento.
+  var ramos = document.querySelectorAll(".ramo");
+  var querMovimento = !window.matchMedia || !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (querMovimento && "IntersectionObserver" in window) {
+    var obs = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){ if (e.isIntersecting) { e.target.classList.add("vis"); obs.unobserve(e.target); } });
+    }, { threshold: 0.25 });
+    ramos.forEach(function(r){ obs.observe(r); });
+  } else {
+    ramos.forEach(function(r){ r.classList.add("vis"); });
+  }
+
+  // Numero da Comissao em formato internacional, apenas digitos.
+  // Para trocar, altere somente esta linha.
+  var ZAP_CDD = "5594984493079";
+
+  function ler(id){ var el = document.getElementById(id); return el ? el.value.trim() : ""; }
+
+  function montarRegistro(){
+    var data = ler("f_data");
+    if (data && data.indexOf("-") === 4) {
+      var pt = data.split("-"); data = pt[2] + "/" + pt[1] + "/" + pt[0];
+    }
+    var l = [];
+    l.push("REGISTRO DE OCORRENCIA NO PJE");
+    l.push("Comissao de Direito Digital, OAB/PA, Subsecao Maraba");
+    l.push("");
+    l.push("Advogado(a): " + (ler("f_nome") || "[nao informado]"));
+    l.push("Inscricao OAB: " + (ler("f_oab") || "[nao informado]"));
+    l.push("Data: " + (data || "[nao informada]"));
+    l.push("Horario: " + (ler("f_hora") || "[nao informado]"));
+    l.push("Sistema: " + ler("f_sistema"));
+    l.push("Processo: " + (ler("f_proc") || "[nao informado]"));
+    l.push("Ato pretendido: " + (ler("f_ato") || "[nao informado]"));
+    l.push("");
+    l.push("Mensagem de erro:");
+    l.push(ler("f_erro") || "[nao informada]");
+    l.push("");
+    l.push("Protocolo P.A.R.E. executado ate a etapa R.");
+    l.push("Teste em outra maquina: " + ler("f_maquina"));
+    l.push("Teste em outra rede: " + ler("f_rede"));
+    l.push("Chamado no TJPA: " + (ler("f_chamado") || "[sem numero de chamado]"));
+    l.push("Prazo vencendo no dia: " + ler("f_prazo"));
+    l.push("Certidao de indisponibilidade: " + ler("f_certidao"));
+    l.push("");
+    l.push("Capturas de tela seguem em anexo.");
+    return l.join("\n");
+  }
+
+  var saida = document.getElementById("saida");
+  var btnGerar = document.getElementById("gerar");
+  var btnCopiar = document.getElementById("copiar");
+
+  btnGerar.addEventListener("click", function(){
+    saida.value = montarRegistro();
+    saida.style.display = "block";
+    saida.scrollIntoView({ block: "nearest" });
+  });
+
+  var btnEnviar = document.getElementById("enviar");
+  btnEnviar.addEventListener("click", function(){
+    var texto = montarRegistro();
+    saida.value = texto;
+    saida.style.display = "block";
+    window.open("https://wa.me/" + ZAP_CDD + "?text=" + encodeURIComponent(texto), "_blank", "noopener");
+  });
+
+  btnCopiar.addEventListener("click", function(){
+    if (!saida.value) { saida.value = montarRegistro(); saida.style.display = "block"; }
+    var texto = saida.value;
+    var pronto = function(){ var t = btnCopiar.textContent; btnCopiar.textContent = "Copiado"; setTimeout(function(){ btnCopiar.textContent = t; }, 1800); };
+    var manual = function(){ saida.focus(); saida.select(); btnCopiar.textContent = "Selecionado, use copiar"; };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(texto).then(pronto).catch(manual);
+    } else {
+      try { saida.focus(); saida.select(); document.execCommand("copy") ? pronto() : manual(); }
+      catch (e) { manual(); }
+    }
+  });
+})();
+</script>
+</body>
+</html>
